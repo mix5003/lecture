@@ -7,7 +7,7 @@ lecture
 
 # Get Lecture
 
-**itkmitl10/lecture** ใช้ซอฟต์แวร์ git ในการจัดการข้อมูล โดยผู้ใช้งานสามารถเข้าถึงข้อมูลใน Repository ได้โดยตรงผ่านทางเว็บไซต์ [GitHub](https://github.com/itkmitl10/lecture) , สามารถ[ดาวโหลดเป็นไฟล์บีบอัด](https://github.com/itkmitl10/lecture)ได้ และสามารถทำการทำการ `clone` โครงการได้ด้วยคำสั่ง
+**itkmitl10/lecture** ใช้ซอฟต์แวร์ git ในการจัดการข้อมูล โดยผู้ใช้งานสามารถเข้าถึงข้อมูลใน Repository ได้โดยตรงผ่านทางเว็บไซต์ [GitHub](https://github.com/itkmitl10/lecture) , สามารถ[ดาวโหลดเป็นไฟล์บีบอัด](https://github.com/itkmitl10/lecture)ได้ และสามารถทำการ `clone` โครงการได้ด้วยคำสั่ง
 
 ```git
 git clone https://github.com/itkmitl10/lecture
@@ -18,3 +18,7 @@ git clone https://github.com/itkmitl10/lecture
 **itkmitl10/lecture** ใช้ฟอแมตการแบบ Markdown เพื่อความง่ายต่อการเขียนและแสดงผลบนเว็บไซต์ (สามารถดูตัวอย่างคำสั่ง Markdown ได้[ที่นี่](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)) แต่หากต้องการแสดงผลในลักษณะอื่น ควรที่จะมีการติดตั้งปลั๊กอินที่มีความสามารถในการอ่าน Markdown ก่อน โดยโครงการเปิดรับ lecture จากเพื่อนๆ ทุกคนในทุกรูปแบบที่ส่งมา และ_อนุญาตให้มีการอ้างอิงเครดิตกลับไปยังผู้เขียนหรือผู้จดได้_
 
 ในกรณีที่มีปัญหาการใช้งาน หรือความคิดเห็นเพิ่มเติมใดๆ เกี่ยวกับโครงการนี้สามารถติดต่อได้ที่ [@pe3zx](https://twitter.com/pe3zx) หรือการโพสต์ในหน้า [Issues](https://github.com/itkmitl10/lecture/issues)
+
+# License
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">itkmitl10/lecture</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/deed.en_US">Creative Commons Attribution-NonCommercial 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/itkmitl10/lecture" rel="dct:source">https://github.com/itkmitl10/lecture</a>.

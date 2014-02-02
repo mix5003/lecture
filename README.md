@@ -23,10 +23,14 @@ lecture ใน repository ล่าสุด อัพเดตวันที�
 │   └── Database System and Concepts
 │       └── Lab
 │           └── sql.md
+├── 3
+│   └── Information System Security
+│       └── Exam
+│           └── Midterm_Exam_ISS.pdf
 ├── LICENSE
 └── README.md
 
-5 directories, 4 files
+8 directories, 5 files
 ```
 
 # Description

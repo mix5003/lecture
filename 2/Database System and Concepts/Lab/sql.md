@@ -68,7 +68,7 @@ FROM employees;
 SELECT last_name "Name", salary*12 "Annual Salary"
 FROM employees;
 ```
-**CAUTION** Alias will be treated as case-insensitive if it isn't enclosed in double-quotes.
+**CAUTION** Alias will be treated as case-insensitive *(BUT displayed as uppercase)* if it isn't enclosed in double-quotes.
 
 - Concatenation Operator:
 

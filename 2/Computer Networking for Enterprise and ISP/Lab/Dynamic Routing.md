@@ -115,6 +115,8 @@ R4(config-router)#
 
 คำสั่ง ```no auto-summary``` คือการไม่ให้ประกาศ Summary Route โดยอัตโนมัติ
 
+คำสั่ง ```passive-interface``` ตามด้วย interface (e.g. passive-interface fa0/0) คือการไม่ให้ router ส่ง routing information ไปยัง interface นั้นๆ (เช่น interface นั้นไม่ได้ต่อกับ router)
+
 ## OSPF
 
 ทำได้โดยใช้คำสั่ง ```router ospf 1```

@@ -7,7 +7,7 @@ lecture
 
 # Get Lecture
 
-**itkmitl10/lecture** ใช้ซอฟต์แวร์ git ในการจัดการข้อมูล โดยผู้ใช้งานสามารถเข้าถึงข้อมูลใน Repository ได้โดยตรงผ่านทางเว็บไซต์ [GitHub](https://github.com/itkmitl10/lecture) , สามารถ[ดาวโหลดเป็นไฟล์บีบอัด](https://github.com/itkmitl10/lecture)ได้ และสามารถทำการ `clone` โครงการได้ด้วยคำสั่ง
+**itkmitl10/lecture** ใช้ซอฟต์แวร์ git ในการจัดการข้อมูล โดยผู้ใช้งานสามารถเข้าถึงข้อมูลใน Repository ได้โดยตรงผ่านทางเว็บไซต์ [GitHub](https://github.com/itkmitl10/lecture) , สามารถดาวโหลดเป็นไฟล์บีบอัดได้ และสามารถทำการ `clone` โครงการทั้งหมดได้ด้วยคำสั่ง
 
 ```git
 git clone https://github.com/itkmitl10/lecture

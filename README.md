@@ -16,8 +16,10 @@ git clone https://github.com/itkmitl10/lecture
 lecture ใน repository ล่าสุด อัพเดตวันที่ 2 กุมภาพันธ์ 2557
 
 ```
+.
 ├── 2
 │   ├── Computer Networking for Enterprise and ISP
+│   │   ├── IPv6.md
 │   │   └── Lab
 │   │       └── Dynamic Routing.md
 │   └── Database System and Concepts
@@ -30,7 +32,7 @@ lecture ใน repository ล่าสุด อัพเดตวันที�
 ├── LICENSE
 └── README.md
 
-8 directories, 5 files
+8 directories, 6 files
 ```
 
 # Description

@@ -13,6 +13,22 @@ lecture
 git clone https://github.com/itkmitl10/lecture
 ```
 
+lecture ใน repository ล่าสุด อัพเดตวันที่ 2 กุมภาพันธ์ 2557
+
+```
+├── 2
+│   ├── Computer Networking for Enterprise and ISP
+│   │   └── Lab
+│   │       └── Dynamic Routing.md
+│   └── Database System and Concepts
+│       └── Lab
+│           └── sql.md
+├── LICENSE
+└── README.md
+
+5 directories, 4 files
+```
+
 # Description
 
 **itkmitl10/lecture** ใช้ฟอแมตการแบบ Markdown เพื่อความง่ายต่อการเขียนและแสดงผลบนเว็บไซต์ (สามารถดูตัวอย่างคำสั่ง Markdown ได้[ที่นี่](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)) แต่หากต้องการแสดงผลในลักษณะอื่น ควรที่จะมีการติดตั้งปลั๊กอินที่มีความสามารถในการอ่าน Markdown ก่อน โดยโครงการเปิดรับ lecture จากเพื่อนๆ ทุกคนในทุกรูปแบบที่ส่งมา และ_อนุญาตให้มีการอ้างอิงเครดิตกลับไปยังผู้เขียนหรือผู้จดได้_

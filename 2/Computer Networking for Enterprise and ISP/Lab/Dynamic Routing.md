@@ -176,6 +176,6 @@ R0(config)#no router ospf 1
 
 - คำสั่ง ```passive-interface``` ตามด้วย interface (e.g. ```passive-interface fa0/0```) คือการไม่ให้ routing protocol ปัจจุบันส่ง routing information ไปยัง interface นั้นๆ (เช่น interface นั้นไม่ได้ต่อกับ router)
 
-- คำสั่ง ```redistribute``` ตามด้วยสิ่งที่ต้องการให้กระจายต่อ (e.g. ```connected```, ```rip```, ```ospf 1```) ตามด้วย ```metric 0``` (e.g. ```redistribute ospf 1 metric 0``` หมายถึง ให้ routing protocol ปัจจุบันกระจาย routing information ของ OSPF ที่มี process id เท่ากับ 1 ไปด้วย)
+- คำสั่ง ```redistribute``` ตามด้วยสิ่งที่ต้องการให้กระจายต่อ (e.g. ```connected```,```static```, ```rip```, ```ospf 1```) ตามด้วย ```metric 0``` (e.g. ```redistribute ospf 1 metric 0``` หมายถึง ให้ routing protocol ปัจจุบันกระจาย routing information ของ OSPF ที่มี process id เท่ากับ 1 ไปด้วย)
 
 - คำสั่ง ```default-infomation originate``` คือการบอกให้ routing protocol ปัจจุบันประกาศ default route ออกไปด้วย

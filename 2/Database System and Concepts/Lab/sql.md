@@ -12,7 +12,7 @@ MERGE
 
 CREATE
 ALTER
-DROP        Data Deginition Language (DDL)
+DROP        Data Definition Language (DDL)
 RENAME
 TRUNCATE
 
@@ -68,6 +68,7 @@ FROM employees;
 SELECT last_name "Name", salary*12 "Annual Salary"
 FROM employees;
 ```
+**ข้อควรระวัง** หากไม่ใส่ " ครอบชื่อใหม่ ชื่อใหม่จะถูกเปลี่ยนเป็นตัวอักษรพิมพ์ใหญ่ทั้งหมด
 
 - Concatenation Operator:
 

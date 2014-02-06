@@ -7,6 +7,6 @@
 5. Aggregating Data using Group Functions
 6. Subqueries
 7. Manipulating Data
-8. [Controlling Transaction](https://github.com/itkmitl10/lecture/blob/master/2/Database%20System%20and%20Concepts/Lab/controlling_transactions.md)
+8. [Controlling Transaction](https://github.com/itkmitl10/lecture/blob/master/2/Database%20System%20and%20Concepts/Lab/controlling_transactions.md#controlling-transactions)
 9. Creating and Managing Tables
 10. Including Constraints

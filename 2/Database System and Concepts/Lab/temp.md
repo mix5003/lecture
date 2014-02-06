@@ -1,6 +1,10 @@
 # Transaction Management
 
-ในการจัดการ Transaction นั้นจะใช้ Data Manipulation Language (DML) เช่นคำสั่งจำพวก `INSERT`, `UPDATE`, `DELETE` หรือ Data Definition Language (DDL) เช่น `CREATE`, `ALTER`, `DROP`, `RENAME`, `TRUNCATE` และ Data Control Language (DCL) เช่น `GRANT`, `REMOVE` 
+ในการจัดการ Transaction นั้นจะใช้ Data Manipulation Language (DML) เช่นคำสั่งจำพวก `INSERT`, `UPDATE`, `DELETE` หรือ Data Definition Language (DDL) เช่น `CREATE`, `ALTER`, `DROP`, `RENAME`, `TRUNCATE` และ Data Control Language (DCL) เช่น `GRANT`, `REMOVE`
+
+การจัดการ Transaction สามารถกระทำได้จากโดยผู้ใช้งานเอง และจาก DBMS ซึ่งใน DBMS นั้นจะมีการใช้ Transaction Log ในการติดตามการเปลี่ยนแปลงของแต่ละ Transaction ที่จะทำให้เกิดการเปลี่ยนแปลงต่อฐานข้อมูล หากระบบเกิดมีปัญหา DBMS ก็จะทำการตรวจสอบจาก Transaction Log เพื่อหาจุดของการเปลี่ยนแปลงที่ยังทำไม่เสร็จสิ้นหรือยังไม่ถูก commit และทำการกู้คืนข้อมูลไปยังจุดนั้น
+
+การทำงานของ Transaction จะเริ่มขึ้นเมื่อคำสั่ง DML ใดๆ ถูกเอ็กซีคิวต์ให้ทำงาน และจบลงเมื่อมีการใช้คำสั่ง `COMMIT`, `ROLLBACK`, มีการใช้คำสั่งในส่วนของ DDL, DCL ซึ่งจะเป็นการ commit โดยอัตโนมัติ, ผู้ใช้ออกจากโปรแกรม iSQL Plus หรือระบบนั้นเกิดปัญหา
 
 ## COMMIT
 
@@ -17,3 +21,34 @@
 ## ROLLBACK TO SAVEPOINT name
 
 ทำการยกเลิกการเปลี่ยนแปลงของ Transaction โดยย้อนกลับไปที่จุด SAVEPOINT ซึ่งจะทำให้ข้อมูลต่างๆ นั้นกลับไปอยู่ในลักษณะเดียวกันกับตอนที่ SAVEPOINT
+
+```
+DELETE FROM sales_reps
+WHERE reps_id = 204;
+SAVEPOINT delete_done;
+1 row deleted.
+Savepoint complete.
+UPDATE sales_reps
+SET salary = 6500
+WHERE reps_id = 202;
+ROLLBACK TO delete_done;
+1 row updated.
+Rollback complete.
+```
+
+จากตัวอย่างเป็นการใช้คำสั่ง `SAVEPOINT` สร้างจุดที่มีชื่อว่า *delete_one* และมีการใช้คำสั่ง `ROLLBACK` กลับไปยังจุด *delete_one*
+
+## AUTOMATIC TRANSACTION PROCESSING
+
+การเกิดขึ้นของ Automatic Transaction Processing นั้นมีอยู่สองรูปแบบคือการเกิด Automatic Commit และ Automatic Rollback โดยรูปแบบของ Automatic Commit นั้นจะเกิดขึ้นจากเหตุการณ์ในรูปแบบต่อไปนี้
+
+- มีการใช้คำสั่งในรูปแบบของ DDL
+- มีการใช้คำสั่งในรูปแบบของ DCL
+- ผู้ใช้งานออกจากโปรแกรมโดยไม่มีการใช้คำสั่ง `COMMIT` หรือ `ROLLBACK`
+
+และ Automatic Rollback จะเกิดขึ้นจากเหตุการณ์ต่อไปนี้
+
+- มีการปิดตัวลงของโปรแกรม iSQL Plus หรือ SQL *Plus อย่างผิดปกติ
+- ระบบทำงานผิดพลาด
+
+ในโปรแกรม iSQL Plus การออกจากระบบอย่างสมบูรณ์นั้นจะเกิดขึ้นเมื่อผู้ใช้งานมีการ Logout ออกจาก session ที่เปิดอยู่ และในโปรแกรม SQL *Plus นั้นจะเกิดขึ้นเมื่อมีการใช้คำสั่ง `EXIT` โดยการปิดหน้าต่างของโปรแกรมนั้นจะถือเป็นการปิดตัวลงของโปรแกรมอย่างผิดปกติ

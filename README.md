@@ -13,7 +13,7 @@ lecture
 git clone https://github.com/itkmitl10/lecture
 ```
 
-lecture ใน repository ล่าสุด อัพเดตวันที่ 2 กุมภาพันธ์ 2557
+lecture ใน repository ล่าสุด อัพเดตวันที่ 8 กุมภาพันธ์ 2557
 
 ```
 .
@@ -24,7 +24,10 @@ lecture ใน repository ล่าสุด อัพเดตวันที�
 │   │       └── Dynamic Routing.md
 │   └── Database System and Concepts
 │       └── Lab
-│           └── sql.md
+│           ├── controlling_transactions.md
+│           ├── README.md
+│           ├── restricitng_and_sorting_data.md
+│           └── writing_sql_statements.md
 ├── 3
 │   └── Information System Security
 │       └── Exam
@@ -32,7 +35,7 @@ lecture ใน repository ล่าสุด อัพเดตวันที�
 ├── LICENSE
 └── README.md
 
-8 directories, 6 files
+8 directories, 9 files
 ```
 
 # Description

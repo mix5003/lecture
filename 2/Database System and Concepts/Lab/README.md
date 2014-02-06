@@ -1,6 +1,6 @@
 # OUTLINE
 
-1. Writing Basic SQL SELECT Statements
+1. [Writing Basic SQL SELECT Statements](https://github.com/itkmitl10/lecture/blob/pe3z/2/Database%20System%20and%20Concepts/Lab/writing_sql_statements.md#writing-sql-statements)
 2. Restricting and Sorting Data
 3. SQL Editing Commands
 4. Displaying Data for Multiple Tables

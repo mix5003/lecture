@@ -10,3 +10,8 @@
 8. [Controlling Transaction](https://github.com/itkmitl10/lecture/blob/master/2/Database%20System%20and%20Concepts/Lab/controlling_transactions.md#controlling-transactions)
 9. Creating and Managing Tables
 10. Including Constraints
+
+# GUIDE
+
+- การเซฟ SQL Statements อยู่ในรูปแบบสคริปต์โดยใช้ encoding เป็น UTF-8 นั้นจะทำให้เกิดปัญหาเรื่อง [Byte Order Mark (BOM)](https://en.wikipedia.org/wiki/Byte_order_mark) เพราะว่า SQL *Plus มันอ่านค่า BOM Byte ที่ถูกเพิ่มมาใน UTF-8 ไม่ได้ ดังนั้นการเซฟเป็น ANSI จะปลอดภัยต่อชีวิตที่สุดแล้ว 
+

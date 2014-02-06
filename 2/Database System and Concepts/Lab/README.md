@@ -1,7 +1,7 @@
 # OUTLINE
 
 1. [Writing Basic SQL SELECT Statements](https://github.com/itkmitl10/lecture/blob/pe3z/2/Database%20System%20and%20Concepts/Lab/writing_sql_statements.md#writing-sql-statements)
-2. Restricting and Sorting Data
+2. [Restricting and Sorting Data](https://github.com/itkmitl10/lecture/blob/pe3z/2/Database%20System%20and%20Concepts/Lab/restricitng_and_sorting_data.md#restricitng-and-sorting-data)
 3. SQL Editing Commands
 4. Displaying Data for Multiple Tables
 5. Aggregating Data using Group Functions

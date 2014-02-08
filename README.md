@@ -15,33 +15,35 @@ git clone https://github.com/itkmitl10/lecture
 
 lecture ใน repository ล่าสุด อัพเดตวันที่ 8 กุมภาพันธ์ 2557
 
-```
-.
-├── 2
-│   ├── Computer Networking for Enterprise and ISP
-│   │   ├── IPv6.md
-│   │   └── Lab
-│   │       └── Dynamic Routing.md
-│   ├── Database System and Concepts
-│   │   └── Lab
-│   │       ├── README.md
-│   │       ├── controlling_transactions.md
-│   │       ├── restricitng_and_sorting_data.md
-│   │       └── writing_sql_statements.md
-│   └── Web Programming
-│       └── Lab
-│           ├── README.md
-│           ├── html.md
-│           └── survival_guide.md
-├── 3
-│   └── Information System Security
-│       └── Exam
-│           └── Midterm_Exam_ISS.pdf
-├── LICENSE
-└── README.md
 
-10 directories, 12 files
-```
+
+- [2](https://github.com/itkmitl10/lecture/tree/master/2)
+  - [Computer Networking for Enterprise and ISP](https://github.com/itkmitl10/lecture/tree/master/2/Computer%20Networking%20for%20Enterprise%20and%20ISP)
+    - [IPv6.md](https://github.com/itkmitl10/lecture/blob/master/2/Computer%20Networking%20for%20Enterprise%20and%20ISP/IPv6.md)
+    - [Lab](https://github.com/itkmitl10/lecture/tree/master/2/Computer%20Networking%20for%20Enterprise%20and%20ISP/Lab)
+      - [Dynamic Routing.md](https://github.com/itkmitl10/lecture/blob/master/2/Computer%20Networking%20for%20Enterprise%20and%20ISP/Lab/Dynamic%20Routing.md)
+  - [Database System and Concepts](https://github.com/itkmitl10/lecture/tree/master/2/Database%20System%20and%20Concepts)
+    - [Lab](https://github.com/itkmitl10/lecture/tree/master/2/Database%20System%20and%20Concepts/Lab)
+      - [README.md](https://github.com/itkmitl10/lecture/blob/master/2/Database%20System%20and%20Concepts/Lab/README.md)
+      - [controlling_transactions.md](https://github.com/itkmitl10/lecture/blob/master/2/Database%20System%20and%20Concepts/Lab/controlling_transactions.md)
+      - [displaying_data_from_multiple_tables.md](https://github.com/itkmitl10/lecture/blob/master/2/Database%20System%20and%20Concepts/Lab/displaying_data_from_multiple_tables.md)
+      - [restricitng_and_sorting_data.md](https://github.com/itkmitl10/lecture/blob/master/2/Database%20System%20and%20Concepts/Lab/restricitng_and_sorting_data.md)
+      - [sql_editing_commands.md](https://github.com/itkmitl10/lecture/blob/master/2/Database%20System%20and%20Concepts/Lab/sql_editing_commands.md)
+      - [writing_sql_statements.md](https://github.com/itkmitl10/lecture/blob/master/2/Database%20System%20and%20Concepts/Lab/writing_sql_statements.md)
+  - [Web Programming](https://github.com/itkmitl10/lecture/tree/master/2/Web%20Programming)
+    - [Lab](https://github.com/itkmitl10/lecture/tree/master/2/Web%20Programming/Lab)
+      - [README.md](https://github.com/itkmitl10/lecture/blob/master/2/Web%20Programming/Lab/README.md)
+      - [html.md](https://github.com/itkmitl10/lecture/blob/master/2/Web%20Programming/Lab/html.md)
+      - [survival_guide.md](https://github.com/itkmitl10/lecture/blob/master/2/Web%20Programming/Lab/survival_guide.md)
+- [3](https://github.com/itkmitl10/lecture/tree/master/3)
+  - [Information System Security](https://github.com/itkmitl10/lecture/tree/master/3/Information%20System%20Security)
+    - [Exam](https://github.com/itkmitl10/lecture/tree/master/3/Information%20System%20Security/Exam)
+      - [Midterm_Exam_ISS.pdf](https://github.com/itkmitl10/lecture/blob/master/3/Information%20System%20Security/Exam/Midterm_Exam_ISS.pdf)
+- [LICENSE](https://github.com/itkmitl10/lecture/blob/master/LICENSE)
+- [README.md](https://github.com/itkmitl10/lecture/blob/master/README.md)
+
+10 directories, 13 files
+
 
 # Description
 

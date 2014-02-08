@@ -11,10 +11,8 @@
 
 - ACTION = หน้าที่จะส่งข้อมูลไป
 - METHOD = วิธีที่จะใช้ในการส่งข้อมูล
-  - GET = ข้อมูลที่ส่งจะต่อท้าย URL ไป
-    - เช่น login.jsp?username=admin&password=P@ssw0rd
-  - POST = ข้อมูลที่ส่งจะ**ไม่**ต่อท้าย URL ไป
-    - จะอยู่ใน Request Header อย่างเดียว
+  - GET = ข้อมูลที่ส่งจะต่อท้าย URL ไป เช่น login.jsp?username=admin&password=P@ssw0rd
+  - POST = ข้อมูลที่ส่งจะ**ไม่**ต่อท้าย URL ไป จะอยู่ใน Request Header อย่างเดียว
 
 ### Input Type
 ประเภทต่างๆ ที่ใช้ในการรับข้อมูล
@@ -121,6 +119,46 @@
 - LOCATION = ตำแหน่งไฟล์รูปภาพ
 - WIDTH = ความกว้างของรูป
 - HEIGHT = ความสูงของรูป
+
+## Table
+ใช้สร้างตาราง
+
+```html
+<table>
+  <thead>
+    <tr>
+      <th>HEADER1</th>
+      <th>HEADER2</th>
+      <th>HEADER3</th>
+      <!-- th, th, th, ... -->
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>DATA1</td>
+      <td>DATA2</td>
+      <td>DATA3</td>
+      <!--- td, td, td, ... -->
+    </tr>
+    <tr>
+      <td>DATA1</td>
+      <td>DATA2</td>
+      <td>DATA3</td>
+      <!--- td, td, td, ... -->
+    </tr>
+    <tr>
+      <td>DATA1</td>
+      <td>DATA2</td>
+      <td>DATA3</td>
+      <!--- td, td, td, ... -->
+    </tr>
+    <!-- tr, tr, tr, ... -->
+  </tbody>
+</table>
+```
+
+- HEADER = หัวข้อของคอลัมน์นั้น
+- DATA = ข้อมูลในคอลัมน์นั้น
 
 ## Header
 ใช้แสดงข้อความหัวข้อ (H1 ใหญ่สุด, H6 เล็กสุด)

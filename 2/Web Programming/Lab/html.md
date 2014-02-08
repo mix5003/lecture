@@ -26,8 +26,6 @@
 <input type="text" name="PARAMETER_NAME"/>
 ```
 
-ตัวอย่าง: <input type="text" name="PARAMETER_NAME"/>
-
 - PARAMETER_NAME = ชื่อพารามิเตอร์ที่จะส่งไป
 
 #### Password
@@ -36,8 +34,6 @@
 ```html
 <input type="password" name="PARAMETER_NAME"/>
 ```
-
-ตัวอย่าง: <input type="text" name="PARAMETER_NAME"/>
 
 - PARAMETER_NAME = ชื่อพารามิเตอร์ที่จะส่งไป
 
@@ -49,11 +45,6 @@
 <input type="radio" name="PARAMETER_NAME" value="VALUE2"/> Value 2
 <input type="radio" name="PARAMETER_NAME" value="VALUE3"/> Value 3
 ```
-
-ตัวอย่าง:
-<input type="radio" name="PARAMETER_NAME" value="VALUE1"/> Value1
-<input type="radio" name="PARAMETER_NAME" value="VALUE2"/> Value 2
-<input type="radio" name="PARAMETER_NAME" value="VALUE3"/> Value 3
 
 - PARAMETER_NAME = ชื่อพารามิเตอร์ที่จะส่งไป
 - VALUE = ค่าที่จะส่งไป
@@ -67,16 +58,11 @@
 <input type="checkbox" name="PARAMETER_NAME" value="VALUE3"/> Value 3
 ```
 
-ตัวอย่าง:
-<input type="checkbox" name="PARAMETER_NAME" value="VALUE1"/> Value 1
-<input type="checkbox" name="PARAMETER_NAME" value="VALUE2"/> Value 2
-<input type="checkbox" name="PARAMETER_NAME" value="VALUE3"/> Value 3
-
 - PARAMETER_NAME = ชื่อพารามิเตอร์ที่จะส่งไป
 - VALUE = ค่าที่จะส่งไป
 
 #### Select
-เลือกหลายอย่าง
+เลือกหนึ่งอย่าง
 
 ```html
 <select name="PARAMETER_NAME">
@@ -85,13 +71,6 @@
   <option value="VALUE3">Value 3</option>
 </select>
 ```
-
-ตัวอย่าง:
-<select name="PARAMETER_NAME">
-  <option value="VALUE1">Value 1</option>
-  <option value="VALUE2">Value 2</option>
-  <option value="VALUE3">Value 3</option>
-</select>
 
 - PARAMETER_NAME = ชื่อพารามิเตอร์ที่จะส่งไป
 - VALUE = ค่าที่จะส่งไป
